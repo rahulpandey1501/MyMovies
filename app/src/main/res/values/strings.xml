@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyMovies</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-5057724905062766/7400932138</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_parser_fragment">ParserFragment</string>
+    <string name="title_activity_movie_content">MovieContent</string>
+    <string name="title_activity_demo">Demo</string>
+    <string name="title_activity_pnr">PNRActivity</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-5057724905062766/9493114137</string>
+</resources>

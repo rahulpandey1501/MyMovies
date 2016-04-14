@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.rahul.mymovies.PNRActivity"
+    tools:showIn="@layout/activity_pnr">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4317362859"
+        android:inputType="number"
+        android:maxLength="10"
+        android:id="@+id/pnrET"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pnrET"
+        android:id="@+id/submitButton"
+        android:layout_gravity="center_horizontal"
+        android:text="submit"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/submitButton"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/response"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:textColor="#d2d"
+        android:text="No Response"/>
+    </ScrollView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/train"
+        android:layout_marginTop="8dp"
+        android:text="No Response"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/from"
+        android:layout_marginTop="8dp"
+        android:text="No Response"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/to"
+        android:layout_marginTop="8dp"
+        android:text="No Response"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/board"
+        android:layout_marginTop="8dp"
+        android:text="No Response"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/travel_class"
+        android:layout_marginTop="8dp"
+        android:text="No Response"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chart"
+        android:layout_marginTop="8dp"
+        android:text="No Response"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/passenger"
+        android:layout_marginTop="8dp"
+        android:text="No Response"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/curr_status"
+        android:layout_marginTop="8dp"
+        android:text="No Response"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/book_status"
+        android:layout_marginTop="8dp"
+        android:text="No Response"/>
+
+</LinearLayout>
